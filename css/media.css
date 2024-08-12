@@ -1,0 +1,997 @@
+/* for phone(portrait tablets and large phones, 600px and up) */
+
+html{
+    scroll-behavior: smooth;
+}
+
+@media only screen and (max-width:600px){
+    img{
+        width: 100%; /* er side barano r komanor jonno*/
+    }
+    .container{
+        width: 100%;
+        margin: auto;
+    }
+    section{
+        padding: 50px 0;/* padding box er bitor jayga kore dey r margin box er out e */
+    }
+    
+    
+    /* ======================= for nav bar css ============================= */
+    
+    
+    header{ 
+        width: 100%;
+    }
+    h1{
+        font-size: 30px;
+    }
+    h2{
+        font-size: 25px;
+    }
+    h3{
+        font-size: 20px;
+    }
+    .naim{
+        
+       
+        display: block;/*div ke pasa pasi anar jonno flax use kore*/
+        
+    }
+    .naim h4{
+        text-align: center;
+        margin: 0;
+        font-size: 20px;
+        padding: 10px ;
+    
+    }
+    .naim h4 span{
+        font-weight: 100;/*lekha mota korar jonno*/
+    }
+    nav ul{
+        margin: 0; /* marjin dewor jonno*/
+        padding: 0;/* padding box er bitor jayga kore dey r margin box er out e */
+        display: flex;/*div ke pasa pasi anar jonno flax use kore*/
+        list-style: none;/*list er samner icon gula remove korar jonno*/
+        justify-content: center;
+    }
+    nav ul li{
+        display: inline-block; /*lakha gula ke pasa pasi boshanor jonno*/
+        /*padding: 0px 0px 0px 30px ;/* padding box er bitor jayga kore dey r margin box er out e */
+        margin: 0 10px 10px 5px;
+    }
+    nav ul li a{
+        
+        font-size: 15px;/*lekha boro korar jonno*/
+    }
+
+    /*banner section*/
+
+    .banner{
+        padding: 50px 0 70px 0;/* padding box er bitor jayga kore dey r margin box er out e */
+        text-align: center;/*lakha majkhane annar jonno*/
+        color: white ;/*text er color er jonno*/
+    }
+    .banner h3{
+       
+        font-style: italic;/*fonter style change korar jonno*/
+        margin: 0 0 10px 0; /* marjin dewor jonno*/
+    }
+    .banner span{
+        background-color: #d11818;/*beg color er jonno*/
+        height: 3px; /*img er lomba barano r komanor jonno*/
+        width: 120px; /*img er side barano r komanor jonno*/
+        display:inline-block ;/*display inline block korte hobe*/
+        border-radius: 10px;/*button ke raund korar jonno*/
+    }
+    .banner h1{
+        font-size: 30px;/*lekha boro korar jonno*/
+        font-family: "Roboto", sans-serif;/*for google roboto font use */
+    }
+    .banner button {
+        background-color: #d11818;/*beg color er jonno*/
+        color: white;/*text er color er jonno*/
+        padding: 10px 20px;/* padding box er bitor jayga kore dey r margin box er out e */
+        font-size: 16px;/*lekha boro korar jonno*/
+        letter-spacing: 1px;/*lekhar modde gap koror jonno*/
+        border: 1px solid #d11818;/*border er side er color er jonno*/
+        border-radius: 20px;/*button ke raund korar jonno*/
+        transition: all 0.4s linear;/*button er bitor hover er color shlow kaj korar jonno*/
+    
+    }
+    
+    .banner button:hover {
+        /* button ke hover korar jonno*/
+        background-color: #d1181800;/*beg color er jonno*/
+        letter-spacing: 3px;/*lekhar modde gap koror jonno*/
+        
+    }
+
+    /*upcoming event */
+    .event-main{
+        text-align: center;/*lakha majkhane annar jonno*/
+    }
+    .event-main h2{
+        margin: 0;/* marjin dewor jonno*/
+        font-size: 25px;/*lekha boro korar jonno*/
+    }
+    .event-main span{
+        background-color: #d11818;/*beg color er jonno*/
+        height: 3px; /*img er lomba barano r komanor jonno*/
+        width: 120px; /*img er side barano r komanor jonno*/
+        display:inline-block ;/*display inline block korte hobe*/
+        border-radius: 10px;/*button ke raund korar jonno*/
+    }
+    .event{
+        display: block;/*div ke pasa pasi anar jonno flax use kore*/
+        width: 100%;/*img er side barano r komanor jonno*/
+        margin: auto;
+    }
+    .event-box{
+        width: 50%;/* oddek oddek jyga newor jonno*/
+        margin: 0px auto;
+    }
+    .event-box img{
+        height: 320px; /*img er height er jonno*/
+        
+    }
+    
+    .event-box p{
+        margin: 30px 0;
+    }
+    
+    .mob{
+        margin-top: 50px;
+    }
+    
+    .explore-main{
+        display: block;/*div ke pasa pasi anar jonno flax use kore*/
+        padding: 0 0 0 5px ;
+    }
+    .explore{
+        width: 100%;/* oddek oddek jyga newor jonno*/
+    }
+    .explore span{
+        background-color: #d11818;/*beg color er jonno*/
+        height: 3px; /*img er lomba barano r komanor jonno*/
+        width: 120px; /*img er side barano r komanor jonno*/
+        display:inline-block ;/*display inline block korte hobe*/
+        border-radius: 10px;/*button ke raund korar jonno*/
+    }
+    .explore h1{
+        font-size: 30px;
+        margin-bottom: 0;
+    }
+    .explore a{
+        color: white;
+        text-decoration: none;
+        letter-spacing: 1px;
+        font-size: 18px; 
+        font-weight: bold;
+    }
+
+    /* toure and destination*/
+    .tours-main{
+        display: block;/*div ke pasa pasi anar jonno flax use kore*/
+        
+    }
+    .tour{
+        padding: 8px;/* padding box er bitor jayga kore dey r margin box er out e */
+    }
+    .tour span{
+        background-color: #d11818;/*beg color er jonno*/
+        height: 3px; /*img er lomba barano r komanor jonno*/
+        width: 120px; /*img er side barano r komanor jonno*/
+        display:inline-block ;/*display inline block korte hobe*/
+        border-radius: 10px;/*button ke raund korar jonno*/
+    }
+    .tour h3{
+        font-size: 20px;/*lekha boro korar jonno*/
+        margin: 0 ;/* marjin dewor jonno*/
+    }
+    .tour p{
+        margin: 10px 0;/* marjin dewor jonno*/
+    }
+    .tour a{}
+    .tour img{
+        
+    }
+    .img-1{
+        height: 300px;/*img er lomba barano r komanor jonno*/
+        object-fit: cover;/*img ke sundor bave thekanor jonno*/
+        margin: 0 0 10px 0;/* marjin dewor jonno*/
+        
+    }
+    .img-2{
+        height: 300px;/*img er lomba barano r komanor jonno*/
+        object-fit: cover;/*img ke sundor bave thekanor jonno*/
+        margin: 0 0 10px 0;/* marjin dewor jonno*/
+        
+    }
+
+    /* footer section*/
+    footer{
+        background-color: black;
+        color: white;
+        padding: 30px 10px;
+        text-align: center;
+    }
+    .fa-brands{
+        color: white;
+        font-size: 20px;
+        margin: 5px;
+    }
+    
+    
+    
+}
+
+/* for tab divace media query*/
+@media only screen and (min-width:601px) and (max-width:768px){
+    img{
+        width: 100%; /* er side barano r komanor jonno*/
+    }
+    .container{
+        width: 98%;
+        margin: auto;
+    }
+    section{
+        padding: 60px 0;/* padding box er bitor jayga kore dey r margin box er out e */
+    }
+    
+    
+    /* ======================= for nav bar css ============================= */
+    
+    
+    header{ 
+        width: 100%;
+    }
+    h1{
+        font-size: 40px;
+    }
+    h2{
+        font-size: 30px;
+    }
+    h3{
+        font-size: 25px;
+    }
+    
+    .naim h4{
+        text-align: center;
+        margin: 0;
+        font-size: 25px;
+        padding: 10px ;
+    
+    }
+    .naim h4 span{
+        font-weight: 100;/*lekha mota korar jonno*/
+    }
+    nav ul{
+        margin: 0; /* marjin dewor jonno*/
+        padding: 0;/* padding box er bitor jayga kore dey r margin box er out e */
+        display: flex;/*div ke pasa pasi anar jonno flax use kore*/
+        list-style: none;/*list er samner icon gula remove korar jonno*/
+        justify-content: center;
+    }
+    nav ul li{
+        display: inline-block; /*lakha gula ke pasa pasi boshanor jonno*/
+        /*padding: 0px 0px 0px 30px ;/* padding box er bitor jayga kore dey r margin box er out e */
+        margin: 0 10px 10px 5px;
+    }
+    nav ul li a{
+        
+        font-size: 18px;/*lekha boro korar jonno*/
+    }
+
+    /*banner section*/
+
+    .banner{
+        padding: 100px 0 110px 0;/* padding box er bitor jayga kore dey r margin box er out e */
+        text-align: center;/*lakha majkhane annar jonno*/
+        color: white ;/*text er color er jonno*/
+    }
+    .banner h3{
+       
+        font-style: italic;/*fonter style change korar jonno*/
+        margin: 0 0 10px 0; /* marjin dewor jonno*/
+    }
+    .banner span{
+        background-color: #d11818;/*beg color er jonno*/
+        height: 4px; /*img er lomba barano r komanor jonno*/
+        width: 140px; /*img er side barano r komanor jonno*/
+        display:inline-block ;/*display inline block korte hobe*/
+        border-radius: 10px;/*button ke raund korar jonno*/
+    }
+    .banner h1{
+        font-size: 40px;/*lekha boro korar jonno*/
+        font-family: "Roboto", sans-serif;/*for google roboto font use */
+    }
+    .banner button {
+        background-color: #d11818;/*beg color er jonno*/
+        color: white;/*text er color er jonno*/
+        padding: 15px 30px;/* padding box er bitor jayga kore dey r margin box er out e */
+        font-size: 18px;/*lekha boro korar jonno*/
+        letter-spacing: 2px;/*lekhar modde gap koror jonno*/
+        border: 1px solid #d11818;/*border er side er color er jonno*/
+        border-radius: 20px;/*button ke raund korar jonno*/
+        transition: all 0.4s linear;/*button er bitor hover er color shlow kaj korar jonno*/
+    
+    }
+    
+    .banner button:hover {
+        /* button ke hover korar jonno*/
+        background-color: #d1181800;/*beg color er jonno*/
+        letter-spacing: 3px;/*lekhar modde gap koror jonno*/
+        
+    }
+
+    /*upcoming event */
+    .event-main{
+        text-align: center;/*lakha majkhane annar jonno*/
+    }
+    .event-main h2{
+        margin: 0;/* marjin dewor jonno*/
+        font-size: 30px;/*lekha boro korar jonno*/
+    }
+    .event-main span{
+        background-color: #d11818;/*beg color er jonno*/
+        height: 4px; /*img er lomba barano r komanor jonno*/
+        width: 140px; /*img er side barano r komanor jonno*/
+        display:inline-block ;/*display inline block korte hobe*/
+        border-radius: 10px;/*button ke raund korar jonno*/
+    }
+    .event{
+        display: flex;/*div ke pasa pasi anar jonno flax use kore*/
+        width: 90%;/*img er side barano r komanor jonno*/
+        margin: auto;
+    }
+    .event-box{
+        width: 50%;/* oddek oddek jyga newor jonno*/
+        margin: 10px;
+    }
+    .event-box img{
+        height: 320px; /*img er height er jonno*/
+        object-fit: cover;/*img ke sundor bave thekanor jonno*/
+        border-radius: 10px;
+        box-shadow: rgba(0, 0, 0, 0.15) 12.95px 12.95px 2.6px;/*box shadow er jonno*/
+    
+    }
+    .event-box h4{
+        font-size: 20px;
+        margin: 25px 0 20px 0 ;
+    }
+    .event-box p{
+        margin: 30px 0;
+    }
+    .event-box a{
+        color: red;
+        text-decoration: none;
+        letter-spacing: 2px;
+        font-size: 18px; 
+    }
+    .ex-se{
+        background-image: url(../images/father.jpg);/*backround e img add korar jonno*/ 
+        background-repeat: no-repeat;/*img jate kore 1  barer veshi na show kore*/
+        background-size: cover;/*img ta pura banner e show korar jonno*/
+        background-position: center; /*img er background position upor nic korar jonno*/
+        background-blend-mode: multiply ;/*background img color change korar jonno*/
+        background-color: rgba(0, 0, 255, 0.44);/*beg color er jonno*/
+        color: white ;/*text er color er jonno*/
+        background-attachment: fixed;/*gackround img ke fixed korar jonno*/
+    }
+    .explore-main{
+        display: block;/*div ke pasa pasi anar jonno flax use kore*/
+        padding: 50px 0;
+    }
+    .explore{
+        width: 80%;/* oddek oddek jyga newor jonno*/
+        margin: auto;
+    }
+    .explore span{
+        width: 160px;/*img er side barano r komanor jonno*/
+        height: 5px;/*img er lomba barano r komanor jonno*/
+        background-color: red;/*beg color er jonno*/
+        display: inline-block;/*display inline block korte hobe*/
+        /*margin: auto;/* marjin dewor jonno*/
+        /*margin: 10px 0px 0px 0px;/* marjin dewor jonno*/
+        border-radius: 10px;/*button ke raund korar jonno*/
+        margin: 10px 0 20px 0;/* marjin dewor jonno*/
+    }
+    .explore h1{
+        font-size: 40px;
+        margin-bottom: 0;
+    }
+    .explore p{
+        margin: 40px 0;
+        font-size: 18px;
+    }
+    .explore a{
+        color: white;
+        text-decoration: none;
+        letter-spacing: 2px;
+        font-size: 18px; 
+        font-weight: bold;
+    }
+
+    /* toure and destination*/
+    .tours-main{
+        display: grid;/*div ke pasa pasi anar jonno flax use kore*/
+        grid-template-columns: repeat(3,1fr);
+    }
+    .tour{
+        padding: 8px;/* padding box er bitor jayga kore dey r margin box er out e */
+    }
+    .tour span{
+        background-color: #d11818;/*beg color er jonno*/
+        height: 3px; /*img er lomba barano r komanor jonno*/
+        width: 120px; /*img er side barano r komanor jonno*/
+        display:inline-block ;/*display inline block korte hobe*/
+        border-radius: 10px;/*button ke raund korar jonno*/
+    }
+    .tour h3{
+        font-size: 20px;/*lekha boro korar jonno*/
+        margin: 0 ;/* marjin dewor jonno*/
+    }
+    .tour p{
+        margin: 10px 0;/* marjin dewor jonno*/
+    }
+    .tour a{}
+    .tour img{
+        
+    }
+    .img-1{
+        height: 300px;/*img er lomba barano r komanor jonno*/
+        object-fit: cover;/*img ke sundor bave thekanor jonno*/
+        margin: 0 0 10px 0;/* marjin dewor jonno*/
+        
+    }
+    .img-2{
+        height: 350px;/*img er lomba barano r komanor jonno*/
+        object-fit: cover;/*img ke sundor bave thekanor jonno*/
+        margin: 0 0 10px 0;/* marjin dewor jonno*/
+        
+    }
+
+    /* footer section*/
+    footer{
+        background-color: black;
+        color: white;
+        padding: 50px 10px;
+        text-align: center;
+    }
+    .fa-brands{
+        color: white;
+        font-size: 20px;
+        margin: 7px;
+    }
+}
+
+/*small laptop ,squire monitor*/
+@media only screen and (min-width:769) and (max-width:1024){
+    body{  /*for body*/
+        margin: 0; /* marjin dewor jonno*/
+        padding: 0;/* padding box er bitor jayga kore dey r margin box er out e */
+        box-sizing: border-box;/* */
+        font-size: 17px;/*lekha boro korar jonno*/
+    }
+    
+    
+    /* ======================= for universal css ============================= */
+    
+    img{
+        width: 100%; /* er side barano r komanor jonno*/
+    }
+    .container{
+        width: 90%;
+        margin: auto;
+    }
+    section{
+        padding: 50px 0;/* padding box er bitor jayga kore dey r margin box er out e */
+    }
+    
+    
+    /* ======================= for nav bar css ============================= */
+    
+    
+    header{ /* box-shadow er jonno 95 beautiful css box shadow search korle onek shadow pabo */
+        /*copy online 95 beautiful css box shadow*/
+        margin: 0; /* marjin dewor jonno*/
+        padding: 0;/* padding box er bitor jayga kore dey r margin box er out e */
+        /*css er vitor img add korte ../ use korte hove*/
+        background-image: url(../images/hill.jpg);/*backround e img add korar jonno*/ 
+        background-repeat: no-repeat;/*img jate kore 1  barer veshi na show kore*/
+        background-size: cover;/*img ta pura banner e show korar jonno*/
+        background-position: center; /*img er background position upor nic korar jonno*/
+        background-blend-mode: multiply ;/*background img color change korar jonno*/
+        background-color: rgba(0, 0, 0, 0.515);/*beg color er jonno*/
+    }
+    
+    .naim{
+        /*    nav bar fixed kokar jonno*/
+        /*background-color: rgba(0, 0, 0, 0.515);/*beg color er jonno*/
+        /* position: fixed;/*nav bar fixed korar jonno*/
+        /*left: 0;/*tahole nevbar bam thike thik thakbe*/
+        /*right: 0;/*tahole nevbar dan thike thik thakbe */
+        /*z-index: 10;/*nav barer lekha guli fixd korar por upore dekhanor jonno */
+        width: 90%; /* er side barano r komanor jonno*/
+        margin: auto; /* marjin dewor jonno*/
+        display: flex;/*div ke pasa pasi anar jonno flax use kore*/
+        justify-content: space-between; /*dui ta div ke dui pase newor jonno*/
+        align-items: center; /*nev er bitor item majkhane newore jonno*/
+        color: white ;/*text er color er jonno*/
+    }
+    .naim h4{
+        color: white ;/*text er color er jonno*/
+    
+    }
+    .naim h4 span{
+        font-weight: 100;/*lekha mota korar jonno*/
+    }
+    nav ul{
+        margin: 0; /* marjin dewor jonno*/
+        padding: 0;/* padding box er bitor jayga kore dey r margin box er out e */
+        display: flex;/*div ke pasa pasi anar jonno flax use kore*/
+        list-style: none;/*list er samner icon gula remove korar jonno*/
+    
+    }
+    nav ul li{
+        display: inline-block; /*lakha gula ke pasa pasi boshanor jonno*/
+        padding: 0px 0px 0px 30px ;/* padding box er bitor jayga kore dey r margin box er out e */
+    }
+    nav ul li a{
+        text-decoration: none;/*text er nicer under line remove korar jonno*/
+        text-transform: capitalize;/*taxt er prothom e shob boro hone*/
+        color: white ;/*text er color er jonno*/
+        font-weight: 600;/*lekha mota korar jonno*/
+        font-size: 18px;/*lekha boro korar jonno*/
+    }
+    
+    /* ======================= for nav banner css ============================= */
+    
+    
+    .banner{
+        padding: 100px 0 150px 0;/* padding box er bitor jayga kore dey r margin box er out e */
+        text-align: center;/*lakha majkhane annar jonno*/
+        color: white ;/*text er color er jonno*/
+    }
+    .banner h3{
+        font-size: 25px;/*lekha boro korar jonno*/
+        font-style: italic;/*fonter style change korar jonno*/
+        margin: 0 0 10px 0; /* marjin dewor jonno*/
+    }
+    .banner span{
+        background-color: #d11818;/*beg color er jonno*/
+        height: 5px; /*img er lomba barano r komanor jonno*/
+        width: 160px; /*img er side barano r komanor jonno*/
+        display:inline-block ;/*display inline block korte hobe*/
+        border-radius: 10px;/*button ke raund korar jonno*/
+    }
+    .banner h1{
+        font-size: 50px;/*lekha boro korar jonno*/
+        font-family: "Roboto", sans-serif;/*for google roboto font use */
+    }
+    .banner button {
+        background-color: #d11818;/*beg color er jonno*/
+        color: white;/*text er color er jonno*/
+        padding: 15px 30px;/* padding box er bitor jayga kore dey r margin box er out e */
+        font-size: 20px;/*lekha boro korar jonno*/
+        letter-spacing: 2px;/*lekhar modde gap koror jonno*/
+        border: 1px solid #d11818;/*border er side er color er jonno*/
+        border-radius: 20px;/*button ke raund korar jonno*/
+        transition: all 0.4s linear;/*button er bitor hover er color shlow kaj korar jonno*/
+    
+    }
+    
+    .banner button:hover {
+        /* button ke hover korar jonno*/
+        background-color: #d1181800;/*beg color er jonno*/
+        letter-spacing: 3px;/*lekhar modde gap koror jonno*/
+        
+    }
+    
+    /* =======================  for UPCOMING EVENTS css ============================= */
+    .event-main{
+        text-align: center;/*lakha majkhane annar jonno*/
+    }
+    .event-main h2{
+        margin: 0;/* marjin dewor jonno*/
+        font-size: 35px;/*lekha boro korar jonno*/
+    }
+    .event-main span{
+        width: 160px;/*img er side barano r komanor jonno*/
+        height: 5px;/*img er lomba barano r komanor jonno*/
+        background-color: red;/*beg color er jonno*/
+        display: inline-block;/*display inline block korte hobe*/
+        /*margin: auto;/* marjin dewor jonno*/
+        /*margin: 10px 0px 0px 0px;/* marjin dewor jonno*/
+        border-radius: 10px;/*button ke raund korar jonno*/
+        margin: 10px 0 40px 0;/* marjin dewor jonno*/
+    }
+    .event{
+        display: flex;/*div ke pasa pasi anar jonno flax use kore*/
+        width: 80%;/*img er side barano r komanor jonno*/
+        margin: auto;
+    }
+    .event-box{
+        width: 50%;/* oddek oddek jyga newor jonno*/
+        margin: 20px;
+    }
+    .event-box img{
+        height: 350px; /*img er height er jonno*/
+        object-fit: cover;/*img ke sundor bave thekanor jonno*/
+        border-radius: 10px;
+        box-shadow: rgba(0, 0, 0, 0.15) 12.95px 12.95px 2.6px;/*box shadow er jonno*/
+    
+    }
+    .event-box h4{
+        font-size: 20px;
+        margin: 25px 0 20px 0 ;
+    }
+    .event-box p{
+        margin: 30px 0;
+    }
+    .event-box a{
+        color: red;
+        text-decoration: none;
+        letter-spacing: 2px;
+        font-size: 18px; 
+    }
+    .ex-se{
+        background-image: url(../images/father.jpg);/*backround e img add korar jonno*/ 
+        background-repeat: no-repeat;/*img jate kore 1  barer veshi na show kore*/
+        background-size: cover;/*img ta pura banner e show korar jonno*/
+        background-position: center; /*img er background position upor nic korar jonno*/
+        background-blend-mode: multiply ;/*background img color change korar jonno*/
+        background-color: rgba(0, 0, 255, 0.44);/*beg color er jonno*/
+        color: white ;/*text er color er jonno*/
+        background-attachment: fixed;/*gackround img ke fixed korar jonno*/
+    }
+    .explore-main{
+        display: flex;/*div ke pasa pasi anar jonno flax use kore*/
+        padding: 50px 0;
+    }
+    .explore{
+        width: 50%;/* oddek oddek jyga newor jonno*/
+    }
+    .explore span{
+        width: 160px;/*img er side barano r komanor jonno*/
+        height: 5px;/*img er lomba barano r komanor jonno*/
+        background-color: red;/*beg color er jonno*/
+        display: inline-block;/*display inline block korte hobe*/
+        /*margin: auto;/* marjin dewor jonno*/
+        /*margin: 10px 0px 0px 0px;/* marjin dewor jonno*/
+        border-radius: 10px;/*button ke raund korar jonno*/
+        margin: 10px 0 20px 0;/* marjin dewor jonno*/
+    }
+    .explore h1{
+        font-size: 50px;
+        margin-bottom: 0;
+    }
+    .explore a{
+        color: white;
+        text-decoration: none;
+        letter-spacing: 2px;
+        font-size: 18px; 
+        font-weight: bold;
+    }
+    
+    /* =======================  for Upcoming tours css ============================= */
+    
+    
+    .tours-main{
+        display: flex;/*div ke pasa pasi anar jonno flax use kore*/
+    }
+    .tour{
+        padding: 12px;/* padding box er bitor jayga kore dey r margin box er out e */
+    }
+    .tour span{
+        width: 160px;/*img er side barano r komanor jonno*/
+        height: 5px;/*img er lomba barano r komanor jonno*/
+        background-color: red;/*beg color er jonno*/
+        display: inline-block;/*display inline block korte hobe*/
+        /*margin: auto;/* marjin dewor jonno*/
+        /*margin: 10px 0px 0px 0px;/* marjin dewor jonno*/
+        border-radius: 10px;/*button ke raund korar jonno*/
+        margin: 10px 0 20px 0;/* marjin dewor jonno*/
+    }
+    .tour h3{
+        font-size: 35px;/*lekha boro korar jonno*/
+        margin: 0 ;/* marjin dewor jonno*/
+    }
+    .tour p{
+        margin: 0 0 20px 0;/* marjin dewor jonno*/
+    }
+    .tour a{}
+    .tour img{}
+    .img-1{
+        height: 300px;/*img er lomba barano r komanor jonno*/
+        object-fit: cover;/*img ke sundor bave thekanor jonno*/
+        margin: 0 0 20px 0;/* marjin dewor jonno*/
+    }
+    .img-2{
+        height: 370px;/*img er lomba barano r komanor jonno*/
+        object-fit: cover;/*img ke sundor bave thekanor jonno*/
+        margin: 0 0 20px 0;/* marjin dewor jonno*/
+    }
+    
+    /* =======================  for footer css ============================= */
+    
+    
+    footer{
+        background-color: black;
+        color: white;
+        padding: 60px 0;
+        text-align: center;
+    }
+    .fa-brands{
+        color: white;
+        font-size: 40px;
+        margin: 10px;
+    }
+    
+}
+ 
+/*small laptop ,squire monitor*/
+@media only screen and (min-width:1025) and (max-width:1440){
+    body{  /*for body*/
+        margin: 0; /* marjin dewor jonno*/
+        padding: 0;/* padding box er bitor jayga kore dey r margin box er out e */
+        box-sizing: border-box;/* */
+        font-size: 17px;/*lekha boro korar jonno*/
+    }
+    
+    
+    /* ======================= for universal css ============================= */
+    
+    img{
+        width: 100%; /* er side barano r komanor jonno*/
+    }
+    .container{
+        width: 90%;
+        margin: auto;
+    }
+    section{
+        padding: 50px 0;/* padding box er bitor jayga kore dey r margin box er out e */
+    }
+    
+    
+    /* ======================= for nav bar css ============================= */
+    
+    
+    header{ /* box-shadow er jonno 95 beautiful css box shadow search korle onek shadow pabo */
+        /*copy online 95 beautiful css box shadow*/
+        margin: 0; /* marjin dewor jonno*/
+        padding: 0;/* padding box er bitor jayga kore dey r margin box er out e */
+        /*css er vitor img add korte ../ use korte hove*/
+        background-image: url(../images/hill.jpg);/*backround e img add korar jonno*/ 
+        background-repeat: no-repeat;/*img jate kore 1  barer veshi na show kore*/
+        background-size: cover;/*img ta pura banner e show korar jonno*/
+        background-position: center; /*img er background position upor nic korar jonno*/
+        background-blend-mode: multiply ;/*background img color change korar jonno*/
+        background-color: rgba(0, 0, 0, 0.515);/*beg color er jonno*/
+    }
+    
+    .naim{
+        /*    nav bar fixed kokar jonno*/
+        /*background-color: rgba(0, 0, 0, 0.515);/*beg color er jonno*/
+        /* position: fixed;/*nav bar fixed korar jonno*/
+        /*left: 0;/*tahole nevbar bam thike thik thakbe*/
+        /*right: 0;/*tahole nevbar dan thike thik thakbe */
+        /*z-index: 10;/*nav barer lekha guli fixd korar por upore dekhanor jonno */
+        width: 90%; /* er side barano r komanor jonno*/
+        margin: auto; /* marjin dewor jonno*/
+        display: flex;/*div ke pasa pasi anar jonno flax use kore*/
+        justify-content: space-between; /*dui ta div ke dui pase newor jonno*/
+        align-items: center; /*nev er bitor item majkhane newore jonno*/
+        color: white ;/*text er color er jonno*/
+    }
+    .naim h4{
+        color: white ;/*text er color er jonno*/
+    
+    }
+    .naim h4 span{
+        font-weight: 100;/*lekha mota korar jonno*/
+    }
+    nav ul{
+        margin: 0; /* marjin dewor jonno*/
+        padding: 0;/* padding box er bitor jayga kore dey r margin box er out e */
+        display: flex;/*div ke pasa pasi anar jonno flax use kore*/
+        list-style: none;/*list er samner icon gula remove korar jonno*/
+    
+    }
+    nav ul li{
+        display: inline-block; /*lakha gula ke pasa pasi boshanor jonno*/
+        padding: 0px 0px 0px 30px ;/* padding box er bitor jayga kore dey r margin box er out e */
+    }
+    nav ul li a{
+        text-decoration: none;/*text er nicer under line remove korar jonno*/
+        text-transform: capitalize;/*taxt er prothom e shob boro hone*/
+        color: white ;/*text er color er jonno*/
+        font-weight: 600;/*lekha mota korar jonno*/
+        font-size: 18px;/*lekha boro korar jonno*/
+    }
+    
+    /* ======================= for nav banner css ============================= */
+    
+    
+    .banner{
+        padding: 100px 0 150px 0;/* padding box er bitor jayga kore dey r margin box er out e */
+        text-align: center;/*lakha majkhane annar jonno*/
+        color: white ;/*text er color er jonno*/
+    }
+    .banner h3{
+        font-size: 25px;/*lekha boro korar jonno*/
+        font-style: italic;/*fonter style change korar jonno*/
+        margin: 0 0 10px 0; /* marjin dewor jonno*/
+    }
+    .banner span{
+        background-color: #d11818;/*beg color er jonno*/
+        height: 5px; /*img er lomba barano r komanor jonno*/
+        width: 160px; /*img er side barano r komanor jonno*/
+        display:inline-block ;/*display inline block korte hobe*/
+        border-radius: 10px;/*button ke raund korar jonno*/
+    }
+    .banner h1{
+        font-size: 60px;/*lekha boro korar jonno*/
+        font-family: "Roboto", sans-serif;/*for google roboto font use */
+    }
+    .banner button {
+        background-color: #d11818;/*beg color er jonno*/
+        color: white;/*text er color er jonno*/
+        padding: 15px 30px;/* padding box er bitor jayga kore dey r margin box er out e */
+        font-size: 20px;/*lekha boro korar jonno*/
+        letter-spacing: 2px;/*lekhar modde gap koror jonno*/
+        border: 1px solid #d11818;/*border er side er color er jonno*/
+        border-radius: 20px;/*button ke raund korar jonno*/
+        transition: all 0.4s linear;/*button er bitor hover er color shlow kaj korar jonno*/
+    
+    }
+    
+    .banner button:hover {
+        /* button ke hover korar jonno*/
+        background-color: #d1181800;/*beg color er jonno*/
+        letter-spacing: 3px;/*lekhar modde gap koror jonno*/
+        
+    }
+    
+    /* =======================  for UPCOMING EVENTS css ============================= */
+    .event-main{
+        text-align: center;/*lakha majkhane annar jonno*/
+    }
+    .event-main h2{
+        margin: 0;/* marjin dewor jonno*/
+        font-size: 40px;/*lekha boro korar jonno*/
+    }
+    .event-main span{
+        width: 160px;/*img er side barano r komanor jonno*/
+        height: 5px;/*img er lomba barano r komanor jonno*/
+        background-color: red;/*beg color er jonno*/
+        display: inline-block;/*display inline block korte hobe*/
+        /*margin: auto;/* marjin dewor jonno*/
+        /*margin: 10px 0px 0px 0px;/* marjin dewor jonno*/
+        border-radius: 10px;/*button ke raund korar jonno*/
+        margin: 10px 0 40px 0;/* marjin dewor jonno*/
+    }
+    .event{
+        display: flex;/*div ke pasa pasi anar jonno flax use kore*/
+        width: 80%;/*img er side barano r komanor jonno*/
+        margin: auto;
+    }
+    .event-box{
+        width: 50%;/* oddek oddek jyga newor jonno*/
+        margin: 20px;
+    }
+    .event-box img{
+        height: 350px; /*img er height er jonno*/
+        object-fit: cover;/*img ke sundor bave thekanor jonno*/
+        border-radius: 10px;
+        box-shadow: rgba(0, 0, 0, 0.15) 12.95px 12.95px 2.6px;/*box shadow er jonno*/
+    
+    }
+    .event-box h4{
+        font-size: 20px;
+        margin: 25px 0 20px 0 ;
+    }
+    .event-box p{
+        margin: 30px 0;
+    }
+    .event-box a{
+        color: red;
+        text-decoration: none;
+        letter-spacing: 2px;
+        font-size: 18px; 
+    }
+    .ex-se{
+        background-image: url(../images/father.jpg);/*backround e img add korar jonno*/ 
+        background-repeat: no-repeat;/*img jate kore 1  barer veshi na show kore*/
+        background-size: cover;/*img ta pura banner e show korar jonno*/
+        background-position: center; /*img er background position upor nic korar jonno*/
+        background-blend-mode: multiply ;/*background img color change korar jonno*/
+        background-color: rgba(0, 0, 255, 0.44);/*beg color er jonno*/
+        color: white ;/*text er color er jonno*/
+        background-attachment: fixed;/*gackround img ke fixed korar jonno*/
+    }
+    .explore-main{
+        display: flex;/*div ke pasa pasi anar jonno flax use kore*/
+        padding: 50px 0;
+    }
+    .explore{
+        width: 50%;/* oddek oddek jyga newor jonno*/
+    }
+    .explore span{
+        width: 160px;/*img er side barano r komanor jonno*/
+        height: 5px;/*img er lomba barano r komanor jonno*/
+        background-color: red;/*beg color er jonno*/
+        display: inline-block;/*display inline block korte hobe*/
+        /*margin: auto;/* marjin dewor jonno*/
+        /*margin: 10px 0px 0px 0px;/* marjin dewor jonno*/
+        border-radius: 10px;/*button ke raund korar jonno*/
+        margin: 10px 0 20px 0;/* marjin dewor jonno*/
+    }
+    .explore h1{
+        font-size: 60px;
+        margin-bottom: 0;
+    }
+    .explore a{
+        color: white;
+        text-decoration: none;
+        letter-spacing: 2px;
+        font-size: 18px; 
+        font-weight: bold;
+    }
+    
+    /* =======================  for Upcoming tours css ============================= */
+    
+    
+    .tours-main{
+        display: flex;/*div ke pasa pasi anar jonno flax use kore*/
+    }
+    .tour{
+        padding: 12px;/* padding box er bitor jayga kore dey r margin box er out e */
+    }
+    .tour span{
+        width: 160px;/*img er side barano r komanor jonno*/
+        height: 5px;/*img er lomba barano r komanor jonno*/
+        background-color: red;/*beg color er jonno*/
+        display: inline-block;/*display inline block korte hobe*/
+        /*margin: auto;/* marjin dewor jonno*/
+        /*margin: 10px 0px 0px 0px;/* marjin dewor jonno*/
+        border-radius: 10px;/*button ke raund korar jonno*/
+        margin: 10px 0 20px 0;/* marjin dewor jonno*/
+    }
+    .tour h3{
+        font-size: 35px;/*lekha boro korar jonno*/
+        margin: 0 ;/* marjin dewor jonno*/
+    }
+    .tour p{
+        margin: 0 0 20px 0;/* marjin dewor jonno*/
+    }
+    .tour a{}
+    .tour img{}
+    .img-1{
+        height: 300px;/*img er lomba barano r komanor jonno*/
+        object-fit: cover;/*img ke sundor bave thekanor jonno*/
+        margin: 0 0 20px 0;/* marjin dewor jonno*/
+    }
+    .img-2{
+        height: 370px;/*img er lomba barano r komanor jonno*/
+        object-fit: cover;/*img ke sundor bave thekanor jonno*/
+        margin: 0 0 20px 0;/* marjin dewor jonno*/
+    }
+    
+    /* =======================  for footer css ============================= */
+    
+    
+    footer{
+        background-color: black;
+        color: white;
+        padding: 60px 0;
+        text-align: center;
+    }
+    .fa-brands{
+        color: white;
+        font-size: 40px;
+        margin: 10px;
+    }
+    
+}
